@@ -13,7 +13,7 @@ app.use(cors(corsOptions));
 
 app.get('/', (req, res) => {
     try {
-        res.send('Pass123'); 
+        res.send('Pass12345'); 
     } catch (err) {
         console.error("Error handling request:1", err);
         res.status(500).send('Something went wrong');
